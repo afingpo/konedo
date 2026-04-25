@@ -1,9 +1,7 @@
 ---
+import '../styles/global.css'
 const pageTitle = "关于我";
 
-const happy = true;
-const finished = false;
-const goal = 3;
 ---
 
 <html lang="zh-cn">
@@ -24,10 +22,5 @@ const goal = 3;
 
 		<p>随着我完成更多教程，该站点将更新，所以请继续查看我的旅程将如何进行吧！</p>
 
-		{happy && <p>我非常乐意学习 Astro！</p>}
-
-		{finished && <p>我完成了这节教程！</p>}
-
-		{goal === 3 ? <p>我的目标是在三天内完成。</p> : <p>我的目标不是 3 天。</p>}
 </body>
 </html>
